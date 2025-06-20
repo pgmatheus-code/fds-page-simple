@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Matheus | Perfil</title>
+        <link rel="stylesheet" href="stylesheet.css"> 
+    </head>
+
+    <body>
+        <div class="profileHolder">
+            <!-- (HTML) 1. Um título principal (<h1>) com seu nome. -->
+            <h1 class="profileName">Matheus Pohlmann Gonçalves</h1>
+        </div>
+
+        <h3>Biografia</h3>
+        <p>
+            <!-- (HTML) 2. Um parágrafo (<p>) apresentando uma breve autobiografia
+            (nome, idade, cidade, interesses etc.). -->
+            Sou Matheus. Nascido em junho de 93 (31 anos), morador de
+            Bento Gonçalves - RS. Professor de Língua Inglesa.
+            <a href="https://www.uninter.com/">
+            <span > Cursando atualmente Engenharia de
+            Software, na Uninter</span></a>, interessado em desenvolvimento
+            de jogos eletrônicos.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur in eveniet quibusdam atque minima, corrupti
+            quisquam nesciunt quidem, at sapiente illo. Accusamus possimus
+            officia, ducimus deserunt aperiam sit! Mollitia nesciunt nemo,
+            officia ab necessitatibus eligendi, ullam labore nobis
+            similique architecto at ratione quas voluptatum enim,
+            pariatur id eveniet. Autem, natus!
+        </p>
+
+        <div>
+            <!-- (javascript) 1. Criar um botão abaixo do parágrafo com o texto
+             "Clique para ver uma mensagem! -->
+            <button id="messageButton">Clique aqui para ver uma mensagem</button>
+            <p id="messageHolder"></p>
+        </div>
+
+        <h3>Hobbies</h3>
+        <!-- (HTML) 3. Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas. -->        
+        <ul class="alternating">
+            <li>&nbsp&nbsp Desenvolvimento de jogos (Unity 2D)</li>
+            <li>&nbsp&nbsp Atividades ao ar livre (Camping, pesca, arqueria)</li>
+            <li>&nbsp&nbsp Pilotagem de moto (Estilo custom/cruiser)</li>
+        </ul>
+        <div class="centeredPanel" id="hobbiesPanel">
+            <!-- (HTML) 4. Uma imagem (<img>) que represente um dos hobbies mencionados.  -->
+            <img class="hobby" src="img/hobbies/unity.png" alt="Unity Game Development Engine">
+            <img class="hobby" src="img/hobbies/camping_site.jpg" alt="Camping Site at Night">
+            <img class="hobby" src="img/hobbies/royal_meteor_350.jpg" alt="Royal Enfield Meteor 350">   
+        </div>
+        
+        <h3>Países que deseja visitar</h3>
+        <!-- (HTML) 5. Uma tabela  <table> que contenha  o nome e a imagem de três países  que 
+        gostaria de visitar. (tabela com 3 linhas x 2 colunas)  -->
+        <table>
+            <tr>
+                <th>Imagem</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/countries/miami_usa.jpg" width="300" height="200" alt="Estados Unidos da America">
+                </td>
+                <td>
+                    <h4>Estados Unidos da América</h4>
+                    <p>
+                        Os Estados Unidos da América são um país com uma economia pujante e um
+                        mercado aquecido, também conhecido por muitos como "a terra da oportunidade".
+                        Conhecido em todo o mundo por muitas paisagens maravilhosas, como a Estátua da
+                        Liberdade, o monte Hushmore, o Grand Canyon, entre outros. Nessa fotografia
+                        aérea pode ser vista a praia de Miami.
+                        <br/><br/>
+                        Principal motivação turística: Assistir a um lançamento de foguete no Cabo Canaveral.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/countries/tokyo_japan.jpg" width="300" height="200" alt="Japão">
+                </td>
+                <td>
+                    <h4>Japão</h4>
+                    <p>
+                        O Japão, localizado no Oceano Pacífico, combina a tradição de uma cultura
+                        oriental com inovação tecnológica de ponta. Conhecido por muitos amantes do
+                        desenho, seja pelos mangás ou animes, o Japão desperta curiosidade pela sua
+                        riqueza de cores, que vai desde as cerejeiras Sakuras, até os paineis
+                        luminosos da cidade de Tokyo.
+                        <br/><br/>
+                        Principal motivação turística: Andar pelas ruas de Tokyo, experimentar a
+                        culinária local.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/countries/unknown_canada.jpg" width="300" height="200" alt="Canadá">
+                </td>
+                <td>
+                    <h4>Canadá</h4>
+                    <p>
+                        O Canadá tem suas maravilhosas reservas florestais repletas de coníferas,
+                        caindo no agrado de campistas ao redor do mundo.
+                        <br/><br/>
+                        Principal motivação turística: Acampar em uma floresta Canadense, tentar não
+                        virar comida de urso.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        
+        <p class="centeredPanel">
+            Essa página foi desenvolvida para o trabalho avaliativo da
+            disciplina de Fundamentos de Desenvolvimento de Softwares.
+        </p>
+        
+        <div class="centeredPanel">
+            Links úteis:
+            <!-- (HTML) 6. Um link (<a>) que leve para um site de interesse do aluno (exemplo: um site 
+            de notícias, tecnologia ou entretenimento).  -->
+            <a href="https://github.com/pgmatheus-code/">My Github</a>&nbsp|&nbsp
+            <a href="https://unity.com/pt">Unity Engine</a>&nbsp|&nbsp
+            <a href="https://royalenfield.com.br/">Royal Enfield Brasil</a>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
